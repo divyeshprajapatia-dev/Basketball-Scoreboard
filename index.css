@@ -1,0 +1,74 @@
+@font-face {
+    font-family: digi;
+    src: url('digital-7.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.container {
+    margin: 20px;
+    padding: 20px;
+    /* border: 1px solid rgb(105, 47, 47) ; */
+    border-radius: 10px;
+    height: 200px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(32, 32, 83);
+}
+
+.scoreboard {
+    /* border: 1px solid rgb(197, 26, 26) ; */
+    height: 90%;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+}
+.team{
+    /* border: 1px solid rgb(0, 0, 0) ; */
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.score{
+    /* border: 1px solid rgb(0, 0, 0) ; */
+    height: 50%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6rem;
+    background-color: rgb(32, 30, 30);
+    color: rgb(177, 55, 55);
+    font-family: digi;
+    border-radius: 10px;
+
+}
+.btn{
+    /* border: 1px solid rgb(0, 0, 0) ; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+}
+button{
+    /* all: unset; */
+    cursor: pointer;
+    border: 1px solid white;
+    margin-top: 8px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    background-color:rgb(32, 32, 83) ;
+    font-family: digi;
+    padding: 5px 5px;;
+    
+}
